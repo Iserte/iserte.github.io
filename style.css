@@ -43,6 +43,23 @@ a {
   font-size: 2.4rem;
   font-weight: bold;
   border-bottom: 1px solid #3f6abb;
+  text-align: center;
+}
+
+@media screen and (min-width: 534px) {
+  #title {
+    font-size: 2.4rem;
+  }
+}
+@media screen and (min-width: 467px) and (max-width: 533px) {
+  #title {
+    font-size: 2rem;
+  }
+}
+@media screen and (max-width: 466px) {
+  #title {
+    font-size: 1.6rem;
+  }
 }
 
 #subtitle {
